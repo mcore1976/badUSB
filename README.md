@@ -5,27 +5,19 @@ The scripts for ARDUINO MICRO SS BEETLE were ported from Digispark Poorman's Rub
 
 You may port another scripts on your own, the required changes are :
 
-- use different library 
-#include <Keyboard.h>  
-instead of " #include <DigiKeyboard.h> "
+- change the library - use  "#include <Keyboard.h>"  instead of using " #include <DigiKeyboard.h> "
 
-- use following function in the code
- - for single key presses
-Keyboard.press(..);  
-Keyboard.release(..);
-Keyboard.releaseAll();
- instead of DigiKeyboard.sendKeyStroke(...);
+use following functions in the code
 
-- for sending key sequences
-Keyboard.print(..)
- instead of 
-DigiKeyboard.println(...)
+- for single key presses use "Keyboard.press(..);" , "Keyboard.release(..);" , "Keyboard.releaseAll();"  instead of "DigiKeyboard.sendKeyStroke(...);"
 
-- do not use 
-DigiKeyboard.update();
-DigiKeyboard.delay(...);
- use simple delay(..); instead
- 
+- for sending key sequences use "Keyboard.print(..)"  instead of using "DigiKeyboard.println(...)"
+
+- do not use "DigiKeyboard.update();" , 
+
+- for delays instead of using "DigiKeyboard.delay(...);"  use simple "delay(..);" 
+
+
 You can see this device in action in my video : https://www.youtube.com/watch?v=X2EN3GxAkhw
 
 
