@@ -5,7 +5,7 @@ The scripts for ARDUINO MICRO SS BEETLE were ported from Digispark Poorman's Rub
 
 You may port another scripts on your own, the required changes are :
 
-- change the library - use  "#include <Keyboard.h>"  instead of using " #include <DigiKeyboard.h> "
+- change the keyboard library - use  "#include <Keyboard.h>"  instead of using " #include <DigiKeyboard.h> "
 
 use following functions in the code
 
