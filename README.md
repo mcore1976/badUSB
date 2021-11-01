@@ -1,5 +1,5 @@
 # badUSB
-This is BadUSB device example based on ARDUINO MICRO SS BETTLE. This is a clone of Arduino Leonardo based on ATMEGA32U4 chip looking similar to Arduino Digispark. It may be 5V based or 3.3V based, this is not relevant in this case.
+This is BadUSB device example based on ARDUINO MICRO SS BETTLE. This is a clone of Arduino Leonardo based on ATMEGA32U4 chip looking similar to Arduino Digispark. It may be 5V based or 3.3V based - it is not relevant in this case.
 
 The scripts for ARDUINO MICRO SS BEETLE were ported from Digispark Poorman's Rubber Ducky : https://github.com/MTK911/Attiny85
 
